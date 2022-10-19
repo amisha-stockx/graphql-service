@@ -6,7 +6,7 @@
     "typings": "dist/index.d.ts",
     "scripts": {
       "build": "tsc",
-      "build:watch": "tsc --watch"
+      "watch": "tsc --watch"
     },
     "dependencies": {
       "@apollo/federation": "0.35.4",

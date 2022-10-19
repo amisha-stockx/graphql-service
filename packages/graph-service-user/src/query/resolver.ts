@@ -1,4 +1,4 @@
-import { Resolvers } from "../../../../generated";
+import { Resolvers } from "../generated";
 
 const users = [
     {
