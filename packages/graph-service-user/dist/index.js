@@ -9,5 +9,5 @@ var server = new apollo_server_1.ApolloServer({
 });
 server.listen(4001).then(function (_a) {
     var url = _a.url;
-    console.log('`🚀 Content service ready at ${url}`');
+    console.log("\uD83D\uDE80 Content service ready at ".concat(url));
 });

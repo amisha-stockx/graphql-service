@@ -6,7 +6,7 @@
     "typings": "dist/index.d.ts",
     "scripts": {
       "start": "ts-node src/index.ts",
-      "build": "tsc"
+      "build": "tsc -w"
     },
     "dependencies": {
       "@apollo/federation": "0.35.4",

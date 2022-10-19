@@ -8,5 +8,5 @@ const server = new ApolloServer({
 })
 
 server.listen(4001).then(({ url }) => {
-    console.log('`🚀 Content service ready at ${url}`')
+    console.log(`🚀 Content service ready at ${url}`)
 });
