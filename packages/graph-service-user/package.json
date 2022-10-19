@@ -1,15 +1,12 @@
 {
     "private": true,
-    "name": "@edge/asks",
+    "name": "@edge/user",
     "version": "1.0.0",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
-      "prepublish": "yarn build",
-      "clean": "rm -rf dist/ tsconfig.tsbuildinfo",
-      "build": "tsc -b . -v",
-      "start": "DOTENV_FLOW_PATH=../.. node -r dotenv-flow/config dist/index.js",
-      "debug": "DOTENV_FLOW_PATH=../.. node --inspect -r dotenv-flow/config -r ts-node/register src/index.ts"
+      "build": "tsc",
+      "build:watch": "tsc --watch"
     },
     "dependencies": {
       "@apollo/federation": "0.35.4",
