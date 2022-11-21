@@ -2,6 +2,7 @@
     "compilerOptions": {
       "strict": true,
       "noFallthroughCasesInSwitch": true,
+      "composite": true
     },
     "exclude": ["**/__tests__/**/*"],
   }

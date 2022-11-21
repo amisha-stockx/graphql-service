@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "name": "@edge/memoization",
+    "scripts": {
+        "prepublish": "yarn build",
+        "build": "tsc -w"
+    }
+}

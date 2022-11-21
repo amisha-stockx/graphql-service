@@ -21,9 +21,9 @@ export const resolvers: Resolvers={
             return users
         },
     },
-    // User: {
-    //     __resolveReference(user): { id: string; firstName: string; lastName: string; email: string; } | undefined{
-    //         return users.find(c => c.id === user.id);
-    //     },
-    // },
+    User: {
+        __resolveReference(user): { id: string; firstName: string; lastName: string; email: string; } | undefined{
+            return users.find(c => c.id === user.id);
+        },
+    },
 }
