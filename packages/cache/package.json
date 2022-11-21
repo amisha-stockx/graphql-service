@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "name": "@edge/cache",
+    "version": "1.0.0",
+    "dependencies": {
+        "@aws-sdk/client-dynamodb": "^3.58.0",
+        "@aws-sdk/lib-dynamodb": "^3.58.0"
+    },
+
+    "devDependencies": {
+        "@aws-sdk/credential-provider-sso": "^3.56.0"
+      },
+
+    "scripts": {
+        "test": "jest --runInBand",
+        "prepublish": "yarn build",
+        "build": "tsc",
+        "start": "ts-node index.ts"
+    }
+}
